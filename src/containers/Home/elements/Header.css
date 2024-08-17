@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-right .MuiButton-root {
+  margin-right: 10px;
+}
+
+.header-right .MuiIconButton-root {
+  margin-left: 5px;
+}
+.icon-button {
+  border: 2px solid #ccc;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.dropdown {
+  display: flex;
+  border: 2px solid #141278;
+  background-color: #fff;
+  padding: 3px 5px;
+  color: #141278;
+  border-radius: 4px;
+  align-items: center;
+  font-size: 14px;
+  height: 30px;
+  gap: 10px;
+}
+.clock {
+  padding-right: 5px;
+  border-right: 2px solid #141278;
+}
+.select-container {
+  margin: 10px 0;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+.select-container option {
+  padding: 10px;
+}
+
+.select-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}

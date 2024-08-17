@@ -1,0 +1,29 @@
+.progress-container {
+    display: flex;
+    border-radius:  20px;
+    overflow:  hidden;
+    height:  20px;
+    width:  100%;
+    background: #e0e0e0;
+}
+
+.progress-labels {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.label-bar {
+    width: 10px;
+    height: 10px;
+}
+
+.progress-legend {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.total-bar {
+    font-weight: 700;
+}

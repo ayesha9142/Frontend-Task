@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-left {
+    font-size: 16px;
+    font-weight: 700;
+    color: #aeafb2;
+  }
+
+  .dashboard-v2 {
+   color: #13147C !important;
+  }
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #b5babf;
+    font-size: 14px;
+  }
+  
+  .search-box {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 400px;
+    height: 30px;
+    background-color: #F0F5F9;
+  }
+  
+  .notification-icon {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .notification-icon:hover {
+    color: #007bff;
+  }
+  

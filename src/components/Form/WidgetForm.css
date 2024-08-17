@@ -1,0 +1,94 @@
+.widget-form {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  
+  .widget-form-content {
+    width: 86%;
+    margin: 30px 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    height: 50px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+  }
+  
+  .submit-button {
+    background-color: #13147C;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ccc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #03103D;
+  }
+  .widget-form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #13147C;
+    padding: 5px 19px; 
+    color: #fff;
+    font-size: 14px;
+  }
+  .widget-form-header h2 {
+    margin: 5px 0px;
+  }
+  .category-tabs {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .active-tab {
+    border-bottom: 2px solid #03103D;
+    padding: 5px 10px;
+  }
+  .c-tab {
+    border-bottom: 2px solid #ccc;
+    padding: 5px 10px;
+  }
