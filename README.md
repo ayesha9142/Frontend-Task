@@ -3,6 +3,14 @@
 This project was created using Create React App and includes various features and configurations.
 Getting Started
 
+## **Live Demo**
+
+You can view the live version of the project at the following link:
+
+[Live Demo](https://frontend-task-ayesha.vercel.app/)
+
+## **Getting Started**
+
 To get your project up and running locally, follow these steps:
 
 ## 1. Clone the Repository
